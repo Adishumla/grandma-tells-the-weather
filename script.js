@@ -67,16 +67,12 @@ fetch(credits)
     <!-- sections for each department -->
     <section class="cast-section">
       <h2>Cast</h2>
-      <ul class="cast-list">
-        ${cast.map((cast) => {
-          return `
-          <li class="cast-list-item">
-            <p>${cast.known_for_department}</p>
-            <p>${cast.name}</p>
-          </li>
-    `;
-        })}
-      </ul>
-    </section>
+      <div class="cast">
+        ${cast
+          .map((cast) => {
+            return `<span> <p>${cast.name}</p> <p>${cast.character}</p></span>`;
+          })
+          .join('')}
+      </div>
   `;
   });

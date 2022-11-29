@@ -1,0 +1,68 @@
+.hero-section-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+.hero-section-text h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+.hero-section-text p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Hero Section Button */
+
+.toggle-button {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* credits */
+/* design like a real credits */
+
+.credits-section {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.cast-section {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cast-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cast-list li {
+  list-style: none;
+  margin: 10px;
+}
